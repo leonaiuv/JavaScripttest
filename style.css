@@ -98,7 +98,7 @@ nav ul li a {
 
 
 .icon {
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     display: inline-flex; /* 使用内联弹性布局使内容在统一水平线上 */
     align-items: center; /* 垂直居中对齐 */
     gap: 10px; /* 设置内容之间的间距 */
