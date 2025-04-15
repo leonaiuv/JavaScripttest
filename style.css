@@ -58,6 +58,7 @@ nav ul li a {
     padding: 10px; /* 设置内边距 */
     border-radius: 10px; /* 新增圆角属性 */
     height: 150px; /* 设置固定高度 */
+    transition: all 0.3s ease 0.1s; /* 鼠标移出时，添加0.2秒延迟的过渡效果 */
     /* 每两个块后取消右侧外边距 */
     &:nth-child(2n) {
         margin-right: 0;
@@ -80,9 +81,7 @@ nav ul li a {
     transition: all 0.3s ease; /* 添加过渡效果，使变化更平滑 */
 }
 
-.block {
-    transition: all 0.3s ease 0.1s; /* 鼠标移出时，添加0.2秒延迟的过渡效果 */
-}
+
 
 .iconsetting {
     width: 20px; /* 设置图标宽度 */
@@ -93,13 +92,15 @@ nav ul li a {
 .articletitle {
     font-size: 15px; /* 设置标题字体大小 */
     font-weight: bold; /* 设置标题字体加粗 */
-    margin-bottom: 5px; /* 设置标题与文本之间的间距 */ 
+    margin-bottom: 17px; /* 设置标题与文本之间的间距 */
+
 }
 
+
 .icon {
-.icon {
+    background-color: aquamarine;
     display: inline-flex; /* 使用内联弹性布局使内容在统一水平线上 */
     align-items: center; /* 垂直居中对齐 */
     gap: 10px; /* 设置内容之间的间距 */
-}
+    height: 20px;
 }
