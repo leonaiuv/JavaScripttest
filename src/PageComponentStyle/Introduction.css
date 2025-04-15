@@ -1,0 +1,13 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e3f2fd; /* 浅蓝色背景 */
+    border-radius: 12px; /* 圆角 */
+    transition: transform 0.3s ease; /* 定义过渡效果，用于鼠标悬停动效 */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* 鼠标悬停时向上移动5px */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 鼠标悬停时添加阴影 */
+}
