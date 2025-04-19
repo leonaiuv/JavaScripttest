@@ -1,6 +1,90 @@
-#chatSet {
-width: 600px;
-height: 250px;
-border-radius: 15px;
-border: 1px solid black;
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-color: rgba(51, 120, 232, 0.3)
 }
+#limitation {
+width: 600px;
+height: 155px;
+border-radius: 15px;
+border: 1px solid rgba(0, 98, 255, 0.01);
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 50%;
+transform: translate(-50%, -50%);
+
+}
+#chat {
+width: 600px;
+height: 100px;
+border-radius: 15px;
+border: 1px solid rgba(255, 102, 102, 0.01);
+position: absolute;
+}
+
+#logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: auto;
+}
+
+#logo p {
+    font-size: 30px;
+    text-align: center;
+    color: #666666;
+}
+
+#inputBox {
+    width: 510px;
+    height: 40px;
+    border-radius: 15px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#inputBtn {
+    width: 70px;
+    height: 46.3px;
+    border-radius: 15px;
+    margin: auto;
+    cursor: pointer; /* 鼠标悬停时变为手型 */
+}
+
+#dialogBox {
+    display: flex;
+    justify-content: center;
+}
+
+#inputBtn{
+background: linear-gradient(to right, #f9fbd6, #eefb77);
+} 
+
+.business {
+    background-color: #f9fbd6;
+    border: 1px solid #20e12a;
+    margin-top: 15px;
+    margin-left: 10px; 
+    border-radius: 15px;
+}
+.business {
+    background-color: #f9fbd6;
+    border: 1px solid #20e12a;
+    margin-top: 15px;
+    margin-left: 10px; 
+    border-radius: 15px;
+}
+
+.business:hover {
+    background-color: #e6e8a7; /* 鼠标悬停时背景颜色变化 */
+    cursor: pointer; /* 鼠标悬停时变为手型 */
+}
+
+.business:active {
+    background-color: #d4d68f; /* 鼠标点击时背景颜色变化 */
+}
+
+
