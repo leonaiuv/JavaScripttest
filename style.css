@@ -21,8 +21,9 @@ transform: translate(-50%, -50%);
 width: 600px;
 height: 100px;
 border-radius: 15px;
-border: 1px solid rgba(255, 102, 102, 0.01);
+border: 1px solid rgba(0, 0, 0, 0.01);
 position: absolute;
+margin-top: 0%;
 }
 
 #logo{
@@ -30,6 +31,7 @@ position: absolute;
     margin-right: auto;
     display: block;
     width: auto;
+    margin-bottom: 0%;
 }
 
 #logo p {
