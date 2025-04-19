@@ -1,49 +1,23 @@
 <!DOCTYPE html>
-<html lang="ch">
+<html>
     <head>
         <meta charset="utf-8">
-        <title>新手练习</title>
+        <title>AI chat</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="all">
-        <nav>
-            <ul id="nav-list">
-                <li><a href="src/PageComponents/Introduction.html" target="_blank">介绍</a></li>
-            </ul>
-            <ul id="nav-list">
-                    <li><a href="about.html"target="_blank">文章</a></li>
-            </ul>
-            <ul id="nav-list">
-                    <li><a href="src/PageComponents/Login.html" target="_blank">登录</a></li>
-            </ul>
-            <ul id="nav-list">
-                <li><a href="src/PageComponents/Login.html" target="_blank">个人中心</a></li>
-            </ul>
-            <ul id="nav-list">
-                <li><a href="src/PageComponents/Login.html" target="_blank">关于</a></li>
-            </ul>
-        </nav>
-        <!-- icon展示 -->
-        <div class="content">
-            <div class="block">
-                <div class="icon">
-                    <img src="src\img\account-website.svg" alt="icon" class="iconsetting">
-                    <p class="articletitle">LLM的前世今生</p>
-                </div>
-            </div>
-            <div class="block">
-                <div class="icon">
-                    <img src="src\img\account-website.svg" alt="icon" class="iconsetting">
-                    <p class="articletitle">一个好文章怎么写</p>
-                </div>
-            </div>
-            <div class="block">
-                <div class="icon">
-                    <img src="src\img\account-website.svg" alt="icon" class="iconsetting">
-                    <p class="articletitle">直播运营的终局</p>
-                </div>
-            </div>        
+    <div id="chatSet">
+        <div id="nav">
+            <div id="logo"><p>欢迎你，有什么可以帮助你</p></div>
         </div>
-     </body>
+        <div>
+            <div id="chat">
+                <div id="dialogBox" class="dialogComponent"></div>
+                <div id="inputBox" class="dialogComponent"></div>
+                <img src="" id="sendBtn">
+            </div>
+        </div>
+    </div>
+        <script src="run.js"></script>
+    </body>
 </html>
